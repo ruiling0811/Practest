@@ -1,0 +1,45 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<analysisReport plugin="analysis-model-api@10.20.0">
+  <id>-</id>
+  <name>-</name>
+  <originReportFile>-</originReportFile>
+  <subReports>
+    <analysisReport>
+      <id>sonar</id>
+      <name>SonarQube Issues</name>
+      <originReportFile>-</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages>
+        <string>Searching for all files in &apos;/var/jenkins_home/workspace/Practest_sonarqube&apos; that match the pattern &apos;**/sonar-report.json&apos;</string>
+        <string>Skipping post processing</string>
+        <string>No filter has been set, publishing all 0 issues</string>
+      </infoMessages>
+      <errorMessages>
+        <string>No files found for pattern &apos;**/sonar-report.json&apos;. Configuration error?</string>
+      </errorMessages>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+  </subReports>
+  <elements class="linked-hash-set"/>
+  <infoMessages>
+    <string>Searching for all files in &apos;/var/jenkins_home/workspace/Practest_sonarqube&apos; that match the pattern &apos;**/sonar-report.json&apos;</string>
+    <string>Skipping post processing</string>
+    <string>No filter has been set, publishing all 0 issues</string>
+    <string>Repository miner is not configured, skipping repository mining</string>
+    <string>Reference build recorder is not configured</string>
+    <string>Obtaining reference build from same job (Practest_sonarqube)</string>
+    <string>No valid reference build found that meets the criteria (NO_JOB_FAILURE - SUCCESSFUL_QUALITY_GATE)</string>
+    <string>All reported issues will be considered outstanding</string>
+    <string>No quality gates have been set - skipping</string>
+    <string>Health report is disabled - skipping</string>
+    <string>Created analysis result for 0 issues (found 0 new issues, fixed 0 issues)</string>
+    <string>Attaching ResultAction with ID &apos;sonar&apos; to build &apos;Practest_sonarqube #3&apos;.</string>
+  </infoMessages>
+  <errorMessages>
+    <string>No files found for pattern &apos;**/sonar-report.json&apos;. Configuration error?</string>
+  </errorMessages>
+  <countersByKey/>
+  <duplicatesSize>0</duplicatesSize>
+</analysisReport>
